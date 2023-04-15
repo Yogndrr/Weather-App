@@ -9,7 +9,7 @@ app.use(cors())
 
 app.get('/weather/:input', (req, res) => {
     const input = req.params.input;
-    const apiKey = 'bb5eed2d05176de83e01c34637ba35cd';
+    const apiKey = 'API_KEY';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=${apiKey}&units=metric`;
 
     axios.get(url)

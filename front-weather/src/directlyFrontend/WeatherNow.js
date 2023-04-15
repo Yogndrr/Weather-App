@@ -7,7 +7,7 @@ const WeatherNow = () => {
     const [input, setInput] = useState("")
     const [error, setError] = useState(false)
 
-    const API_KEY = "bb5eed2d05176de83e01c34637ba35cd"
+    const API_KEY = 'API_KEY'
     const URL = "https://api.openweathermap.org/data/2.5/weather"
 
     const changeHandler = (event) => {
