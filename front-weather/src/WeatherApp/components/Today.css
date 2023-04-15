@@ -1,0 +1,38 @@
+.today_unit__icon {
+    width: 22px;
+    height: 22px;
+    align-self: center;
+    margin-right: 4px;
+    margin-left: 20px;
+}
+
+.today_unit__icon1 {
+    width: 22px;
+    height: 22px;
+    align-self: center;
+    font-size: 15px;
+}
+
+.today_weather__icon {
+    width: 90px;
+    height: 90px;
+    top: 0;
+}
+
+.today_main {
+    overflow: auto;
+    padding: 5px;
+    backdrop-filter: blur(5px);
+}
+
+.today_text__left {
+    float: left;
+}
+
+.today_text__right {
+    float: right;
+}
+
+.today_span {
+    font-weight: bold;
+}

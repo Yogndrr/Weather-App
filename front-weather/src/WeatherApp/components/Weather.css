@@ -1,0 +1,15 @@
+.weather-main {
+    flex-grow: 1;
+    margin-top: 60px;
+    padding: 15px;
+}
+
+.weather-card { 
+    padding: 16px;
+}
+
+.weather-section {
+    height: 100%;
+    padding-top: 5px;
+    background-color: rgba(5, 4, 2, 0.1);
+}
